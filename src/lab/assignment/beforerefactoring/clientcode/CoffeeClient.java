@@ -1,17 +1,24 @@
 package assignment.beforerefactoring.clientcode;
 
-import assignment.beforerefactoring.CoffeeMaker;
+import assignment.beforerefactoring.*;
+import example.afterrefactoring.HouseTemplate;
 
 public class CoffeeClient {
 
 
     public static void main(String[] args) {
-        CoffeeMaker starbuzz = new CoffeeMaker();
-        starbuzz.prepareMochaCoffee();
+        CoffeeTemplate coffeeType = new Mocha();
 
+        coffeeType.prepareCoffee();
         System.out.println("********************");
 
-        starbuzz.prepareCapuccinoCoffee();
+        coffeeType = new Cappucino();
+        coffeeType.prepareCoffee();
+        System.out.println("********************");
+
+        coffeeType = new Americano();
+        coffeeType.prepareCoffee();
+        
 
     }
 
