@@ -1,9 +1,9 @@
-package lab.example.afterrefactoring.clientcode;
+package example.afterrefactoring.clientcode;
 
-import lab.example.afterrefactoring.ConcreteHouse;
-import lab.example.afterrefactoring.GlassHouse;
-import lab.example.afterrefactoring.HouseTemplate;
-import lab.example.afterrefactoring.WoodenHouse;
+import example.afterrefactoring.ConcreteHouse;
+import example.afterrefactoring.GlassHouse;
+import example.afterrefactoring.HouseTemplate;
+import example.afterrefactoring.WoodenHouse;
 
 public class HouseClient {
 

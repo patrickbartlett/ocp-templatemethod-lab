@@ -1,4 +1,4 @@
-package lab.example.beforerefactoring.clientcode;
+package example.beforerefactoring.clientcode;
 
 import lab.example.beforerefactoring.HouseTemplate;
 

@@ -1,4 +1,4 @@
-package lab.example.afterrefactoring;
+package example.afterrefactoring;
 
 public class WoodenHouse extends HouseTemplate{
 
